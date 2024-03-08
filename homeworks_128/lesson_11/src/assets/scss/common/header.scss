@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .logo a {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #37a;
+    }
+  }
+}
